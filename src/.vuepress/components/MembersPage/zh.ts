@@ -27,7 +27,7 @@ const zhMembersOption: MembersOption = {
           role: "秘书长助理",
           name: "阿超",
           photo: "/assets/img/members/achao.png",
-          desc: "00后全栈开发，Stream-Query 作者，Hutool Committer、Mybatis-Plus Committer"
+          desc: "00后全栈开发，Stream-Query 作者，Hutool Committer、Mybatis-Plus Committer、Apache Stream-Park Committer"
         },
         {
           role: "TOC成员",

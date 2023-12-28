@@ -26,7 +26,7 @@ const enMembersOption: MembersOption = {
           role: "Assistant Secretary General",
           name: "A Chao",
           photo: "/assets/img/members/achao.png",
-          desc: "00s full-stack developer, author of Stream-Query, Hutool Committer, Mybatis-Plus Committer"
+          desc: "00s full-stack developer, Author of Stream-Query, Hutool Committer, Mybatis-Plus Committer、Apache Stream-Park Committer"
         },
         {
           role: "TOC Member",
