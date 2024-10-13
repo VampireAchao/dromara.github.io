@@ -26,7 +26,20 @@ export default defineUserConfig({
         content: "Non-profit organization where open-source enthusiasts gather."
       }
     ],
-    ["script", { src: "https://cdn.wwads.cn/js/makemoney.js", async: true }]
+    ["script", { src: "https://cdn.wwads.cn/js/makemoney.js", async: true }],
+    [
+      "script",
+      {},
+      `(function() {
+        var userLanguage = navigator.language || navigator.userLanguage;
+        var isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+        if (!isLocalhost && userLanguage.startsWith('zh')) {
+          if (window.location.hostname !== 'dromara.org.cn') {
+            window.location.href = 'https://dromara.org.cn' + window.location.pathname;
+          }
+        }
+      })();`
+    ]
   ],
 
   locales: {
